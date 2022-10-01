@@ -3,4 +3,5 @@ LEGACY
 LICENSE
 TODO
 config.def.h.old
+*.orig
 patches/
