@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Ubuntu Mono:style=Regular:pixelsize=22:antialias=true:autohint=true";
+static char *font = "UbuntuMono Nerd Font:style=Medium:pixelsize=22";
+//static char *font = "Ubuntu Mono:style=Regular:pixelsize=22:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Noto Color Emoji:style=Regular:pixelsize=18"
@@ -117,7 +118,7 @@ static const char *colorname[] = {
 	"red3",
 	"green3",
 	"yellow3",
-	"blue2",
+	"#7f7fff",
 	"magenta3",
 	"cyan3",
 	"gray90",
@@ -138,7 +139,7 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"gray90", /* default foreground colour */
-	"#17001b", /* default background colour */
+	"#220022", /* default background colour */
 };
 
 
